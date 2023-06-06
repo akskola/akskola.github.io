@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.65c3750c.css",
+    "main.js": "/static/js/main.60b1ff22.js",
+    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/landing_img.png": "/static/media/landing_img.ed5acd65161a3b6092e5.png",
+    "static/media/about_img.jpg": "/static/media/about_img.9c1401b25d0382dce3ca.jpg",
+    "static/media/aks_logo.png": "/static/media/aks_logo.b0e4eca87844b89f4fae.png",
+    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/resume.pdf": "/static/media/resume.3a04f46c63f57a918894.pdf",
+    "static/media/asu_logo.png": "/static/media/asu_logo.6a431dce3e9375295524.png",
+    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/oracle_logo.png": "/static/media/oracle_logo.995c90d9931d3d98aeb3.png",
+    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "static/media/June_transcript.pdf": "/static/media/June_transcript.4b9a72901e844cc4c86c.pdf",
+    "index.html": "/index.html",
+    "main.65c3750c.css.map": "/static/css/main.65c3750c.css.map",
+    "main.60b1ff22.js.map": "/static/js/main.60b1ff22.js.map",
+    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.65c3750c.css",
+    "static/js/main.60b1ff22.js"
+  ]
+}
