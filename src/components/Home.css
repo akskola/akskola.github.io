@@ -1,0 +1,109 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 90px);
+  /* height: 100%;
+  margin-top: 30vh; */
+  position: relative;
+}
+
+.background {
+  padding-top: 120px;
+  padding-left: 50px;
+  position: fixed;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  /* overflow: hidden; */
+  pointer-events: none;
+}
+
+.background::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.08;
+  background-image: url("../images/landing_img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: transform 0.3s ease; /* Add transition for smooth movement */
+}
+
+.home-content-wrapper {
+  /* margin-top: -120px; */
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  z-index: 1;
+  color: #fff;
+}
+
+.home-content-wrapper h1 {
+  font-size: 56px;
+  letter-spacing: 0.5px;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.8); /* Add glow effect */
+  margin-bottom: 10px;
+}
+
+.home-content-wrapper .typewriter {
+    font-size: 28px;
+    margin-bottom: 40px;
+    letter-spacing: 1.5px;
+    /* Additional styles for the typewriter animation */
+    white-space: nowrap; /* Prevent line breaks */
+    overflow: hidden; /* Hide overflowing text */
+    /* border-right: 2px solid #fff;  */
+    animation: typing 1s steps(30, end), blink-caret 0.5s step-end infinite;
+    opacity: 1; /* Show the text */
+  }
+  
+  .home-content-wrapper .typewriter .cursor {
+    display: inline-block;
+    vertical-align: middle;
+    width: 2px;
+    height: 24px;
+    background-color: #fff;
+    animation: cursor-blink 0.5s infinite;
+  }
+  
+  @keyframes typing {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink-caret {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
+  @keyframes cursor-blink {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+
+  .social-icons {
+    position: fixed;
+    margin-right: 25px;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+  }
+  
